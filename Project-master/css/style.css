@@ -102,7 +102,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #4dbf1c; }
+        color: #dde6eb; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -157,7 +157,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #4dbf1c;
+              background: #1e1f1d;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
@@ -206,7 +206,7 @@ button:focus {
     .top_menu .header_social li:last-child {
       margin-right: 0px; }
     .top_menu .header_social li:hover a {
-      color: #4dbf1c; }
+      color: #1e1f1d; }
   .top_menu .dn_btn {
     line-height: 42px;
     display: inline-block;
@@ -217,7 +217,7 @@ button:focus {
     color: #777777;
     transition: all 300ms linear 0s; }
     .top_menu .dn_btn:hover {
-      color: #4dbf1c; }
+      color:; }
     .top_menu .dn_btn:last-child {
       margin-right: 0px; }
   .top_menu .lan_pack {
@@ -2598,8 +2598,8 @@ h6 {
     padding-right: 35px; }
     .courses_inner .hover_text .cat {
       display: inline-block;
-      background: #4dbf1c;
-      color: #fff;
+      background: #74e988;
+      color: rgb(44, 42, 42);
       padding: 0px 25px;
       border-radius: 5px;
       line-height: 30px;
@@ -2624,7 +2624,7 @@ h6 {
       .courses_inner .hover_text .list li:last-child {
         margin-right: 0px; }
     .courses_inner .hover_text:hover h4 {
-      color: #4dbf1c; }
+       }
 
 .wd55 {
   width: 55.55%;
@@ -3163,8 +3163,10 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
   }
 } 
 #title {
-
-  margin: 2.5em;
+  top: 20px;
+  margin-bottom: 5em;
+  text-align:center;
+  font-size:25px; 
   color: white;
 }
 
